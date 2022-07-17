@@ -2637,5 +2637,12 @@ input, select, textarea {
 						font-size:5rem ;
 						color: white;
 					}
-	
+		}
+
+		.thankYou{
+			width: 100%;
+			margin: auto;
+			font-size: 2rem;
+			color: #000;
+			font-weight: 500;
 		}
