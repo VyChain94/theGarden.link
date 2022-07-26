@@ -7,7 +7,6 @@
 document.getElementById("name").onchange = name
 document.getElementById("email").onchange = email
 document.getElementById("message").onchange = message
-document.getElementById("ourwork").onmouseover = ourwork
 
 function name(){
 	document.getElementById("name").style.background="green"
