@@ -469,6 +469,8 @@ input, select, textarea {
 		.row.gtr-50 {
 			margin-top: -25px;
 			margin-left: -25px;
+			width:inherit;
+			margin: auto;
 		}
 
 			.row.gtr-50 > * {
@@ -957,6 +959,7 @@ input, select, textarea {
 				.row.gtr-50 {
 					margin-top: -15px;
 					margin-left: -15px;
+					
 				}
 
 					.row.gtr-50 > * {
@@ -1848,9 +1851,9 @@ input, select, textarea {
 		line-height: 1.25em;
 	}
 
-	form textarea {
-		min-height: 13em;
-	}
+	/* form textarea {
+		
+	} */
 
 	form select {
 		position: relative;
@@ -2281,7 +2284,7 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		margin: 0;
+		margin: auto;
 		text-align: center;
 		padding: 4em 0 8em 0;
 		box-shadow: inset 0 1px 0 0 #e6e6e6;
@@ -2573,7 +2576,7 @@ input, select, textarea {
 		.row > .col-6 {
 			width: 33%;
 			margin: auto;
-			/* border:2px solid yellow; */
+			
 		}
 
 	}
@@ -2646,3 +2649,53 @@ input, select, textarea {
 			color: #000;
 			font-weight: 500;
 		}
+
+
+	/* Form */
+
+form {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 0 0 2em 0;
+	width: 40%;
+	margin: auto;
+
+}
+	
+	/* form lists and all other lists?? */
+	form li + li{
+		margin-top:1em ;
+	}
+
+	@media screen and (max-width: 580px){
+
+		form {
+			padding-left: 5px;
+			padding-right: 5px;
+			margin: 0 0 2em 0;
+			width: 50%;
+			margin: auto;
+		
+		}}
+		
+		@media screen and (max-width: 500px){
+		
+			form {
+				padding-left: 5px;
+				padding-right: 5px;
+				margin: 0 0 2em 0;
+				width: 75%;
+				margin: auto;
+			
+			}}
+		
+			@media screen and (max-width: 750px){
+		
+				form {
+					padding-left: 5px;
+					padding-right: 5px;
+					margin: 0 0 2em 0;
+					width: 75%;
+					margin: auto;
+				
+				}}
